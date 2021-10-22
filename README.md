@@ -14,6 +14,7 @@ r28      | $gp           | global pointer
 r29      | $sp           | stack pointer
 r30      | $fp           | frame pointer
 r31      | $ra           | return address
+f0-f31   | $f0-$f31      | floating point
 
 
 # System Calls for SPIM
