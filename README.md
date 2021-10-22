@@ -28,7 +28,7 @@ read\_int        | 5           |                       | integer (in $v0)
 read\_float      | 6           |                       | float (in $f0)
 read\_double     | 7           |                       | double (in $f0)
 read\_string     | 8           | $a0 = buffer          |
-&npsp;           |             | $a1 = length          |
+&nbsp;           |             | $a1 = length          |
 sbrk             | 9           | $a0 = amount          | address (in $v0)
 exit             | 10          |                       |
 print\_character | 11          | $a0 = character       |
