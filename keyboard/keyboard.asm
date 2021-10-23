@@ -1,3 +1,6 @@
+# memory mapped IO and interrupt example
+# https://www.cs.drexel.edu/~jjohnson/wi02/cs282/lectures/lec11.html
+
 # This program enables external interrupts at level 0
 # (i.e. interrupts from the memory mapped terminal for
 # the receiver.  As a consequence the interrupt handler
