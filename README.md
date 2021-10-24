@@ -59,3 +59,17 @@ write            | 15          | $a0 = file descriptor | bytes written (in $v0)
 &nbsp;           |             | $a2 = count           |
 close            | 16          | $a0 = file descriptor | 0 (in $v0)
 exit2            | 17          | $a0 = value           |
+
+# SPIM memory map
+
+    0x7fffffff  ┌---------------┐
+         ↓      | stack segment |
+                ├---------------┤
+                |               |
+                ├---------------┤
+         ↑      | data segment  |
+    0x10010000  |---------------|
+                | text segment  |
+    0x00400000  |---------------|
+                | reserved      |
+    0x00000000  └---------------┘
