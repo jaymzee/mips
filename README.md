@@ -43,22 +43,23 @@ read\_int        | 5           |                       | integer (in $v0)
 read\_float      | 6           |                       | float (in $f0)
 read\_double     | 7           |                       | double (in $f0)
 read\_string     | 8           | $a0 = buffer          |
-&nbsp;           |             | $a1 = length          |
+  &nbsp;         |             | $a1 = length          |
 sbrk             | 9           | $a0 = amount          | address (in $v0)
 exit             | 10          |                       |
 print\_character | 11          | $a0 = character       |
 read\_character  | 12          | character (in $v0)    |
 open             | 13          | $a0 = filename        | file descript (in $v0)
-&nbsp;           |             | $a1 = flags           |
-&nbsp;           |             | $a2 = mode            |
+  &nbsp;         |             | $a1 = flags           |
+  &nbsp;         |             | $a2 = mode            |
 read             | 14          | $a0 = file descriptor | bytes read (in $v0)
-&nbsp;           |             | $a1 = buffer          |
-&nbsp;           |             | $a2 = count           |
+  &nbsp;         |             | $a1 = buffer          |
+  &nbsp;         |             | $a2 = count           |
 write            | 15          | $a0 = file descriptor | bytes written (in $v0)
-&nbsp;           |             | $a1 = buffer          |
-&nbsp;           |             | $a2 = count           |
+  &nbsp;         |             | $a1 = buffer          |
+  &nbsp;         |             | $a2 = count           |
 close            | 16          | $a0 = file descriptor | 0 (in $v0)
 exit2            | 17          | $a0 = value           |
+
 
 # SPIM memory map
 
